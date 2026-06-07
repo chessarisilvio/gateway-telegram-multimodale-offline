@@ -1,0 +1,10 @@
+.env
+.env.local
+node_modules/
+dist/
+build/
+*.log
+worker-log.txt
+TASK.md
+PROGRESS.md
+.DS_Store
