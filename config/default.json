@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "token": "",
+    "adminIds": []
+  },
+  "llm": {
+    "host": "http://localhost:8080",
+    "model": "your-model-name.gguf",
+    "maxTokens": 2048,
+    "temperature": 0.7
+  },
+  "vision": {
+    "modelPath": "~/modelli-ai/moondream-1.4b-gguf/model.gguf",
+    "maxFrames": 3,
+    "language": "it"
+  },
+  "audio": {
+    "whisperModelPath": "~/modelli-ai/whisper-large-v3/model.bin",
+    "language": "it",
+    "maxDuration": 60
+  },
+  "storage": {
+    "tempDir": "/tmp/gateway-telegram",
+    "maxFileSize": 20 * 1024 * 1024,
+    "retentionMinutes": 30
+  }
+}
